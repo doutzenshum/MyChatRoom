@@ -18,9 +18,8 @@
 - 聊天内容还不能保存到数据库
 
 ## 运行截图
-![img_1](http://7xjike.com1.z0.glb.clouddn.com/index.png)
-![img_2](http://7xjike.com1.z0.glb.clouddn.com/index.png)
-
+![img_1](http://7xjike.com1.z0.glb.clouddn.com/main.tiff)
+![img_2](http://7xjike.com1.z0.glb.clouddn.com/index.tiff)
 
 ## 参考资料
 1.	Struts2和Hibernate的学习，《Java web开发实战》
