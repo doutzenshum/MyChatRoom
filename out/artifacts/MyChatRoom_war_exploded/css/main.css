@@ -1,0 +1,88 @@
+@charset "UTF-8";
+body {
+  font-family: 'Open Sans','helvetica',arial,sans-serif;
+  font-weight: 300;
+	
+  background-image: url(../img/brige.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 960px;
+  height: 480px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 1px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius:15px;
+  border: solid 0px;
+}
+
+.user_list {
+  width: 20%;
+  height: 480px;
+  float: left;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.user_list h4 {
+	color: #000000;
+}
+
+.panel-title {
+    padding: 1px;
+    width: 100%;
+}
+
+.panel-body {
+	padding: 1px;
+    width: 100%;
+}
+
+.chat_view {
+  width: 80%;
+  height: 100%;
+  float: left;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.chat_display {
+    width: 100%;
+    height: 420px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    border: solid 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.chat_send {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+	padding-top: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
