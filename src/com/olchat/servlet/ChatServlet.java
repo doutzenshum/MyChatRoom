@@ -40,7 +40,7 @@ public class ChatServlet extends HttpServlet {
 		String speak=request.getParameter("speak");
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Vector<String> v=null;
-		String message = df.format(new Date()) + " 萌萌哒的用户啊 " + "["+user+"]说:" +speak;
+		String message = df.format(new Date()) + " Dear User " + "["+user+"]说:" +speak;
 		if(null==application.getAttribute("message")){
 			v=new Vector<String>();
 		}else{
