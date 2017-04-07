@@ -10,7 +10,6 @@ import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
-import java.util.Timer;
 import java.util.Vector;
 
 public class ChatServlet extends HttpServlet {
@@ -40,7 +39,7 @@ public class ChatServlet extends HttpServlet {
 		String speak=request.getParameter("speak");
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Vector<String> v=null;
-		String message = df.format(new Date()) + " Dear User " + "["+user+"]˵:" +speak;
+		String message = df.format(new Date()) + " 萌萌哒的用户 " + "["+user+"]˵:" +speak;
 		if(null==application.getAttribute("message")){
 			v=new Vector<String>();
 		}else{
